@@ -1,0 +1,31 @@
+.consulta {
+    font-family: $tipografia1;
+    font-size: 15px;
+    text-align: center;
+  
+    p {
+      color: $color2
+    }
+  }
+  
+  .completar {
+    width: 300px;
+    height: 25px;
+  
+    p {
+      color: $color2
+    }
+  }
+  
+  .escribir {
+    width: 300px;
+    height: 150px;
+  
+    p {
+      color: $color2
+    }
+  }
+  
+  .enviar {
+    margin: 5px;
+  }

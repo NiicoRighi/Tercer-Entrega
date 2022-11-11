@@ -1,0 +1,43 @@
+@mixin camara {
+  font-family: $tipografia1;
+  font-size: 15px;
+  color: $color2;
+}
+
+#section__camara__contenedor {
+    color: $color2;
+    display: grid;
+    padding: 20px;
+    grid-template-areas:
+      "texto1 titulo ."
+      "texto1 titulo texto2"
+      ". titulo texto2";
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(3, 2fr);
+    margin: 10px;
+  
+    #section__camara__texto1 {
+      @include camara;
+      grid-area: texto1;
+
+    }
+  
+    #section__camara__titulo {
+      grid-area: titulo;
+      width: 400px;
+      height: 400px;
+      align-self: center;
+      font-weight: 900;
+      font-size: 3rem;
+      text-align: center;
+      background-image: url(../photos/nikon-post.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  
+    #section__camara__texto2 {
+      @include camara;
+      grid-area: texto2;
+    }
+  }

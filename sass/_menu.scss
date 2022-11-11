@@ -1,0 +1,29 @@
+nav {
+    ul {
+      border-bottom: 2px solid $color2;
+      border-top: 2px solid $color2;
+      font-family: arial;
+      font-size: 20px;
+      list-style-type: none;
+      margin: 5px;
+      display: flex;
+      justify-content: center;
+  
+      li {
+        margin: 10px;
+        align-items: center;
+  
+        a {
+          text-decoration: none;
+          margin: 15px;
+          color: $color2;
+  
+          &:hover {
+            color: $color3;
+            transition: 2s;
+            text-shadow: 4px 4px 2px $color2;
+          }
+        }
+      }
+    }
+  }

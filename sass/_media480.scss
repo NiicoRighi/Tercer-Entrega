@@ -1,0 +1,43 @@
+@media screen and (max-width: 480px) {
+    h2 {
+      font-size: 10px;
+    }
+  
+    nav {
+      ul {
+        font-size: 10px;
+        margin: 5px;
+  
+        li {
+          margin: 10px;
+  
+          a {
+            margin: 5px;
+          }
+        }
+      }
+    }
+  
+    #section__camara__contenedor {
+      padding: 5px;
+      grid-template-areas:
+        "texto1"
+        "titulo"
+        "texto2";
+      grid-template-columns: 1fr;
+      margin: 5px;
+  
+      #section__camara__texto1 {
+        font-size: 10px;
+      }
+  
+      #section__camara__texto2 {
+        font-size: 10px;
+      }
+  
+      #section__camara__titulo {
+        font-size: 20px;
+        height: 100px;
+      }
+    }
+  }

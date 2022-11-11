@@ -1,0 +1,62 @@
+/* Estilos responsive */
+
+@media screen and (max-width: 800px) {
+    h1 {
+      font-size: 35px;
+    }
+  
+    h2 {
+      font-size: 25px;
+    }
+  
+    nav {
+      ul {
+        font-size: 25px;
+        margin: 10px;
+  
+        li {
+          margin: 10px;
+  
+          a {
+            margin: 15px;
+          }
+        }
+      }
+    }
+  
+    footer {
+      font-size: 20px;
+    }
+  
+  
+    #section__camara__contenedor {
+      padding: 10px;
+      grid-template-areas:
+        "texto1"
+        "titulo"
+        "texto2";
+      grid-template-columns: 1fr;
+      margin: 20px;
+  
+      #section__camara__texto1 {
+        font-size: 25px;
+      }
+  
+      #section__camara__texto2 {
+        font-size: 25px;
+      }
+  
+      #section__camara__titulo {
+        font-size: 25px;
+        height: 100%;
+        text-align: center;
+        align-self: center;
+      }
+    }
+  
+    .figure-caption {
+      font-family: $tipografia1;
+      font-size: 25px;
+      color: $color2;
+    }
+  }
